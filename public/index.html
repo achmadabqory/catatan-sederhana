@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catatan Saya</title>
+  <style>
+    body { font-family: sans-serif; max-width: 480px; margin: 40px auto; padding: 0 16px; }
+    form { display: flex; gap: 8px; margin-bottom: 20px; }
+    input { flex: 1; padding: 8px; }
+    ul { list-style: none; padding: 0; }
+    li { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+  <h1>Catatan Saya</h1>
+
+  <form id="form">
+    <input id="isi" placeholder="Tulis catatan..." required>
+    <button type="submit">Tambah</button>
+  </form>
+
+  <ul id="daftar"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
